@@ -1,0 +1,1 @@
+!function(){"use strict";$.fn.animateImage=function(){var t=$(this),a=t.data("animation");t.attr("src",a),t.removeClass("static")}}();

@@ -1,0 +1,1 @@
+!function(n){"use strict";function t(n,t){var o;return function(){var e=function(){o=null,n()};clearTimeout(o),o=setTimeout(e,t)}}function o(){n(window).scrollTop()>i&&e.removeClass("hidden")}var e=n(".js--floatingCallToAction"),i=n("#mainContent").offset().top;n(e).insertAfter("#mainContent");var r=t(o,50);window.addEventListener("scroll",r)}(jQuery);

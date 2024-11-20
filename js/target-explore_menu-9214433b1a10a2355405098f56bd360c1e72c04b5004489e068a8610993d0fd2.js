@@ -1,0 +1,1 @@
+$((function(){"use strict";$(".explore-full-menu").click((function(){var e={};e.explore_menu_tab=document.querySelector(".tabList-headers .is--active").innerText,Mealhand.Analytics.Amplitude.send("new_home_page_explore_menu.clicked",e)}))}));
